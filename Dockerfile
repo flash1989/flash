@@ -2,7 +2,6 @@
 FROM php:5.6.18-apache 
  
 MAINTAINER haertl.mike@gmail.com 
- 
 ENV PATH $PATH:/root/.composer/vendor/bin 
  
 # PHP extensions come first, as they are less likely to change between Yii releases 
