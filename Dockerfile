@@ -50,7 +50,7 @@ RUN apt-get update \
  
  
  # Apache config and composer wrapper 
- COPY apache2.conf /etc/apache2/apache2.conf 
+ COPY httpd.conf /etc/httpd/conf/httpd.conf 
  COPY composer /usr/local/bin/composer 
  
  
