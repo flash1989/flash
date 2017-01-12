@@ -48,10 +48,7 @@ RUN apt-get update \
  
  
  
- 
- # Apache config and composer wrapper 
- COPY httpd.conf /etc/httpd/conf/httpd.conf 
- COPY composer /usr/local/bin/composer 
+  COPY composer /usr/local/bin/composer 
  
  
  WORKDIR /var/www/html 
